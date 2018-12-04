@@ -1,3 +1,4 @@
+
 *{padding:0;margin:0;font-family: "Nunito", sans-serif;}
 p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 .container-fluid{padding: 0 300px;}
@@ -126,13 +127,9 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 }
 .background_text{
   position: absolute;
-  top: 10;
-  left: 10;
-  width: 20%;
-  height: 20%;
-  z-index: 99;
-  opacity: 1;
 }
+
+
 .find_out_how{
   padding: 10px 0;
   background-color: #9ac22f;
