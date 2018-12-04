@@ -3,7 +3,7 @@ var glide = new Glide('.glide', {
   startAt: 0,
   perView: 1,
   gap: 0,
-  autoplay: 2000,
+  autoplay: false,
   breakpoints: {
     1024: {
       perView: 1
@@ -15,10 +15,12 @@ var glide = new Glide('.glide', {
 })
 glide.mount();
 
+$(function(){
 var options = {
   useEasing: true,
   useGrouping: true,
   separator: ',',
 };
-var numAnim = new CountUp('.sw_box', 0, 10000, 0, 2, options);
+var numAnim = new CountUp('.counter', 0, 10000, 0, 2, options);
 numAnim.start();
+});

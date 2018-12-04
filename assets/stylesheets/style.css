@@ -87,20 +87,6 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 	color: #f26229;
   background-color: #ffffff00;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .subscription_form{
   display: flex;
   margin: 18px 0;
@@ -140,6 +126,12 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 }
 .background_text{
   position: absolute;
+  top: 10;
+  left: 10;
+  width: 20%;
+  height: 20%;
+  z-index: 99;
+  opacity: 1;
 }
 .find_out_how{
   padding: 10px 0;
@@ -206,11 +198,15 @@ figure+p{
   text-transform: uppercase;
   font-weight: bold;
 }
+.learn_more:hover{
+  color: #fff;
+}
+
 /***********SAVE-WATER************/
 .save_water_heading{
   font-family: "Montserrat", sans-serif;
   font-size: 60px;
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-top: 90px;
@@ -228,6 +224,7 @@ figure+p{
   width: 30%;
   height: 15%;
   background-color: #fbe103;
+  border-radius: 80px / 60px;
 }
 
 .num{
