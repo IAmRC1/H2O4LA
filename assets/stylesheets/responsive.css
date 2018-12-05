@@ -1,0 +1,163 @@
+@media (min-width: 1440px) and (max-width: 2560px){
+  .background_text{
+    top: 30%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1440px){
+  .header{
+    padding: 0 50px;
+  }
+  .background_text{
+    top: 15%;
+  }
+  .container-fluid{padding: 0;}
+  .intro {
+    padding: 0 100px;
+  }
+  .intro_text_content h2::after{
+    left: 37%;
+    width: 23.9%;
+  }
+  .resources{
+    padding: 80px 20px 20px 20px;
+  }
+  .resource_box h5+p {
+    font-size: 15px;
+  }
+}
+
+
+
+
+@media (min-width: 375px) and (max-width: 768px){
+.header{padding: 0;}
+.navbar-toggler {
+  background-color: #5f1d1d;
+  border: 1px solid #e01414;
+  color: red;}
+.subscription_form{display: none;}
+.header_block {justify-content: space-between;}
+.container-fluid{padding: 0;}
+.intro {padding: 0 50px;}
+.intro h2 {padding: 50px 0;}
+.intro p {line-height: 1.5;}
+.custom-btn {margin: 30px 0;}
+.save_water_heading {
+    font-size: 35px;
+    margin: 50px 0;
+  }
+.sw_box {padding: 0 0 45px;}
+.num {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+.find_local_agencies {padding: 40px;}
+.find_local_agencies h3 {padding-bottom: 20px;}
+.locator_form .zip_code {
+    padding: 10px;
+    width: 55%;
+  }
+.custom-btn.show_me {margin: 30px 0 0;}
+.resource_box figure {float: none;}
+.resource_box h5 {padding: 10px 0;}
+.custom-btn.all_res {margin: 30px 0 0;}
+
+}
+
+@media screen and (max-width: 375px){
+  .container-fluid{padding: 0;}
+  .header{padding: 0;}
+  .navbar-toggler {
+  background-color: #5f1d1d;
+  border: 1px solid #e01414;
+  color: red;}
+  .subscription_form{display: none;}
+  .email{display:none;}
+  .sign_up{display:none;}
+  .header_block {justify-content: space-between;}
+  .active::before {
+    display: none;
+  }
+  .background_text h2 {
+  font-size: 12px;}
+  .find_out_how {
+  padding: 5px 0;
+  width: 90px;
+  margin: 5px 0;
+  font-size: 10px;}
+  .glide__bullet {
+  margin: 0;
+  width: auto;
+  height: auto;
+  }
+  .glide__bullets{bottom: 1em;}
+  .intro{padding: 10px 20px;}
+  .intro_text_content h2 {
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: "Proxima Nova", sans-serif;
+
+  }
+  .intro_text_content p {
+    line-height: 1;
+    font-size: 15px;
+    padding-top: 20px;
+  font-family: "Proxima Nova", sans-serif;}
+  .intro_text_content h2::after {
+    top: 100%;
+    left: 22%;
+    width: 50.9%;
+    height: 20%;}
+  .learn_how {
+    margin: 15px 0;
+    padding: 0;}
+  .page_lander {padding: 0;}
+  .buckets {padding: 30px;}
+  figure + p {font-size: 13px;}
+  figcaption {
+    padding: 10px 0;
+    font-size: 14px;}
+  .learn_more {font-size: 12px;}
+  .save_water_heading {
+    font-size: 25px;
+    margin: 20px 0;}
+    .num{font-size: 40px;}
+  .sw_box h1::after {
+    top: 50px;
+    left: 43%;
+    width: 15%;
+    height: 15%;}
+  .num+p {
+    margin-top: 30px;
+    font-size: 13px;}
+  .find_local_agencies h3 {font-size: 20px;padding-bottom: 20px;}
+  .show_me {padding: 0;}
+  .sw_box {padding: 0 20px 20px 20px;}
+  .locator_form .zip_code {
+    padding: 0;
+    width: 50%;
+    border: 2px solid #bbdefa;
+  }
+  .find_local_agencies {padding: 50px 0;}
+  .show_me {margin: 20px 0 0;}
+  .resources {padding: 50px 10px;}
+  .resources h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .resource_box figure {width: 100%;}
+  .resource_box h5 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .resource_box h5 + p {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 0 20px;
+  }
+  .all_res{
+    margin: 10px 0 0 !important;
+    padding: 0;
+  }
+  .footer {padding: 20px 0;}
+}

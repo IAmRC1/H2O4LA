@@ -6,27 +6,29 @@
     <title>Water for LA</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Nunito">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="assets/stylesheets/glide.core.min.css"/>
     <link rel="stylesheet" href="assets/stylesheets/glide.theme.min.css"/>
     <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css"/>
     <link rel="stylesheet" href="assets/stylesheets/reset.css"/>
     <link rel="stylesheet" href="assets/stylesheets/style.css"/>
+    <link rel="stylesheet" href="assets/stylesheets/responsive.css"/>
+
   </head>
-  <body class="text-center">
+  <body>
     <header class="header">
         <div class="header_block">
           <div class="header_logo">
             <a href="#"><img src="assets/img/logo.png" alt="HEADER_LOGO"></a>
         </div>
         <nav class="navbar navbar-expand-lg">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAlt" aria-controls="navbarNavAlt" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse">
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+          <div class="collapse navbar-collapse" id="navbarNavAlt">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item dropdown">
     	            <a href="#" class="nav-link ddbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Our Water</a>

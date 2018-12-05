@@ -1,7 +1,6 @@
-
 *{padding:0;margin:0;font-family: "Nunito", sans-serif;}
 p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
-.container-fluid{padding: 0 300px;}
+.container-fluid{padding: 0 300px;}body{text-align: center;}
 
 .btn {
   font-family: "Nunito", sans-serif;
@@ -60,11 +59,11 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 }
 
 .nav-link {
-    font-family: "Montserrat",sans-serif;
-    color: #275cbc;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
+  font-family: "Montserrat",sans-serif;
+  color: #275cbc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 .nav-link:hover{
   color: #f26229;
@@ -76,7 +75,7 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
   position: absolute;
   content: "";
   top: 95px;
-  left: 34px;
+  left: 28px;
   width: 50px;
   height: 7px;
   background-color: #0271ca;
@@ -89,10 +88,6 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 .dropdown{
   position: relative;
 }
-.dropdown::
-
-
-
 .dropdown-menu.column {
 	min-width: 550px;
   border: none;
@@ -141,9 +136,7 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   position: relative;
-
 }
-
 
 /***********HERO************/
 .image_box img{
@@ -221,6 +214,10 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
   border: none;
   width: 150px;
 }
+
+
+
+
 /***********PAGE-LANDER************/
 .page_lander{
   background-color: #008af4;
@@ -316,7 +313,7 @@ figure+p{
   width: 28%;
 }
 ::-webkit-input-placeholder {
-  color: 0467b7;
+  color: #0467b7;
 }
 .show_me{
   margin: 60px 0 0;
