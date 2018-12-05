@@ -3,7 +3,7 @@ var glide = new Glide('.glide', {
   startAt: 0,
   perView: 1,
   gap: 0,
-  autoplay: false,
+  autoplay: 2000,
   breakpoints: {
     1024: {
       perView: 1
@@ -29,7 +29,7 @@ $(window).scroll(function() {
           countNum: countTo
         },
         {
-          duration: 3000,
+          duration: 2000,
           easing: 'swing',
           step: function() {
             $this.text(Math.floor(this.countNum));

@@ -4,13 +4,13 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 .container-fluid{padding: 0 300px;}
 
 .btn {
+  font-family: "Nunito", sans-serif;
   text-align: center;
   display: inline-block;
   position: relative;
   text-decoration: none;
   text-transform: capitalize;
   padding: 10px 0;
-  width: 200px;
   overflow: hidden;
   transition: all 0.2s linear 0s;
 }
@@ -48,12 +48,15 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 
 /********HEADER************/
 .header{
-  padding: 10px 200px;
+  padding: 0 250px;
 }
 .header_block{
   display: flex;
   justify-content: space-evenly;
   align-content: center;
+}
+.header_logo, .subscription_form{
+  padding: 10px 0;
 }
 
 .nav-link {
@@ -66,6 +69,30 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 .nav-link:hover{
   color: #f26229;
 }
+.nav .nav-item{
+  display: relative;
+}
+.active::before {
+  position: absolute;
+  content: "";
+  top: 95px;
+  left: 34px;
+  width: 50px;
+  height: 7px;
+  background-color: #0271ca;
+  z-index: 10;
+}
+.active::before:hover{
+  background-color: #f26229;
+  color: #f26229;
+}
+.dropdown{
+  position: relative;
+}
+.dropdown::
+
+
+
 .dropdown-menu.column {
 	min-width: 550px;
   border: none;
@@ -101,21 +128,26 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
   font-family: "Nunito", sans-serif;
   width: 270px;
 }
+::placeholder {
+  color: #6093ca;
+}
 .sign_up{
   padding: .375rem 0;
+  margin: 0;
   width: 100px;
   border-radius: 0;
   color: #fff;
   background-color: #56a1db;
   font-family: "Nunito", sans-serif;
+  font-size: 16px;
   position: relative;
+
 }
 
 
 /***********HERO************/
 .image_box img{
   width: 100%;
-  position: relative;
 }
 .glide__bullet{
   margin: 0 1.25em;
@@ -125,14 +157,36 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 .glide__bullet.glide__bullet--active {
   background-color: #1981d5;
 }
+.glide__slide{
+  position: relative;
+  z-index: -9;
+}
 .background_text{
   position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  height: 40%;
+  z-index: 9;
+  text-align: left;
+}
+.background_text.right{
+  text-align: right;
 }
 
-
+.background_text h2{
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  font-size: 60px;
+  text-shadow: -1px 2px #000;
+  opacity: 1;
+}
 .find_out_how{
   padding: 10px 0;
-  background-color: #9ac22f;
+  font-family: "Nunito", sans-serif;
+  background: linear-gradient(to right, green, #98FB98) !important;
+  border: #e0e0e0;
+  width: 170px;
 }
 
 /***********INTRO************/
@@ -165,13 +219,15 @@ p{font-size: 20px;font-family: "Proxima-Nova", sans-serif;}
 .learn_how{
   background: linear-gradient(to right, red, yellow);
   border: none;
+  width: 150px;
 }
 /***********PAGE-LANDER************/
 .page_lander{
   background-color: #008af4;
+  padding: 50px 0;
 }
-.col-md-4.col-sm-6.col-xs-12{
-  padding: 45px 60px;
+.buckets{
+  padding: 30px 60px;
 }
 figcaption{
   font-family: "Montserrat", sans-serif;
@@ -266,11 +322,12 @@ figure+p{
   margin: 60px 0 0;
   background: linear-gradient(to right, green, #98FB98) !important;
   border: #e0e0e0;
+  width: 140px;
 }
 
 /***********RESOURCES************/
 .resources{
-  padding: 80px 0 40px;
+  padding: 80px 0 20px;
 }
 .resources h3{
 font-size: 36px;
@@ -304,11 +361,13 @@ padding-bottom: 80px;
 .all_res{
   background: linear-gradient(to right, red, yellow);
   border: none;
+  width: 180px;
 }
 
 /***********FOOTER************/
 .footer{
   background-color: #f7f8f9;
+  padding: 35px 0;
 }
 .footer_row{
   text-transform: uppercase;
@@ -318,6 +377,5 @@ padding-bottom: 80px;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
-  padding: 35px 0 50px;
   color: #b7c0c9;
 }
